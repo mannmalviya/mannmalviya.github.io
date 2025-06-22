@@ -141,13 +141,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-defaults:
-  - scope:
-      path: ""
-      type: news
-    values:
-      layout: post
-
 collections:
   books:
     output: true
@@ -219,13 +212,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
-
 sass:
   style: compressed
 
@@ -261,6 +247,18 @@ jekyll-archives:
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
