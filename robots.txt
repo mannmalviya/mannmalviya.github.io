@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mannmalviya.github.io/mannmalviya.github.io//sitemap.xml
+Sitemap: https://mannmalviya.github.io/sitemap.xml
