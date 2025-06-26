@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: AboutMe
-description: 
+description:
 nav: true
 nav_order: 7
 

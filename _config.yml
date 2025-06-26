@@ -7,7 +7,8 @@ first_name: Mann
 middle_name:
 last_name: Malviya
 contact_note: "" # if u ever decide to use add a ">" at the very start
-description: > # the ">" symbol means to ignore newlines until "footer_text:" This "description" field provides meta data about the site-meta description of the website, which will be used by search engines. Just write a short summary about the site's content.
+description:
+  > # the ">" symbol means to ignore newlines until "footer_text:" This "description" field provides meta data about the site-meta description of the website, which will be used by search engines. Just write a short summary about the site's content.
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: "" # if u ever decide to use add a ">" at the very start
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
