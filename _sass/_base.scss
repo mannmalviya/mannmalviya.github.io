@@ -1417,3 +1417,54 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.social .contact-icons a {  
+  display: inline-block;  
+  position: relative;  
+  margin: 0 1.5rem; /* Add horizontal spacing between icons */  
+}  
+  
+.social .contact-icons a img.only-dark,  
+.social .contact-icons a img.only-light {  
+  position: absolute;  
+  top: 0;  
+  left: 0;  
+}
+
+
+
+
+.social .contact-icons a img {  
+  transition: all 0.3s ease-in-out;  
+}  
+  
+.social .contact-icons a:hover img {  
+  transform: scale(1.15) rotate(5deg);  
+  border-color: var(--global-theme-color);  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  
+}
+
+/*
+If you want to make the icon enlarge and not rotate use::after
+.social .contact-icons a img {  
+  transition: transform 0.3s ease-in-out;  
+}  
+  
+.social .contact-icons a:hover img {  
+  transform: scale(1.2);  
+}
+
+If you want a border around the icon on hover:
+.social .contact-icons a img {  
+  transition: all 0.3s ease-in-out;  
+  border: 2px solid transparent;  
+  border-radius: 8px;  
+}  
+  
+.social .contact-icons a:hover img {  
+  transform: scale(1.15) rotate(5deg);  
+  border-color: var(--global-theme-color);  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  
+}
+
+*/

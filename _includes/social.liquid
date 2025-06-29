@@ -92,19 +92,33 @@
       <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
-    {% else %}
-      <a href="{{ social[1].url }}" title="{{ social[1].title }}">
-        {% assign file_ext = social[1].logo | split: '.' | last %}
-        {% if file_ext == 'svg' %}
-          <svg>
-            <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
-          </svg>
-        {% else %}
-          <img
-            src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
-            alt="{{ social[1].title }}"
-          >
-        {% endif %}
+    {% else %}  
+      <a href="{{ social[1].url }}" title="{{ social[1].title }}">  
+        {% assign file_ext = social[1].logo | split: '.' | last %}  
+        {% if file_ext == 'svg' %}  
+          <svg class="only-light">  
+            <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />  
+          </svg>  
+          {% if social[1].logo_dark %}  
+            <svg class="only-dark">  
+              <image xlink:href="{% if social[1].logo_dark contains '://' %}{{ social[1].logo_dark }}{% else %}{{ social[1].logo_dark | relative_url }}{% endif %}" />  
+            </svg>  
+          {% endif %}  
+        {% else %}  
+          <img  
+            class="only-light"  
+            src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"  
+            alt="{{ social[1].title }}"  
+          >  
+          {% if social[1].logo_dark %}  
+            <img  
+              class="only-dark"  
+              src="{% if social[1].logo_dark contains '://' %}{{ social[1].logo_dark }}{% else %}{{ social[1].logo_dark | relative_url }}{% endif %}"  
+              alt="{{ social[1].title }}"  
+            >  
+          {% endif %}  
+        {% endif %}  
       </a>
+
   {% endcase %}
 {% endfor %}

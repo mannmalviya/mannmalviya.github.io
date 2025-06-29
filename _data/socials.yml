@@ -7,13 +7,13 @@
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: you@example.com # your email address
+# email: mmalviya@ucsc.edu # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 # github_username: # your GitHub user name
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
+# inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
@@ -29,8 +29,8 @@ inspirehep_id: 1010907 # Inspire HEP author ID
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+# rss_icon: true # comment this line to hide the RSS icon
+# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -45,7 +45,39 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+
+gmail:
+  logo: assets/img/gmail.png # can be png, svg, jpg
+  logo_dark: assets/img/gmail-dark.png
+  title: Gmail
+  url: mmalviya@ucsc.edu
+
+linkedin:
+  logo: assets/img/linkedin.png # can be png, svg, jpg
+  logo_dark: assets/img/linkedin-dark.png
+  title: LinkedIn
+  url: https://www.linkedin.com/in/mann-malviya-610765274/
+
+instagram:
+  logo: assets/img/instagram.png # can be png, svg, jpg
+  logo_dark: assets/img/instagram-dark.png
+  title: Instagram
+  url: https://www.instagram.com/mann_malviya_/
+
+Github:
+  logo: assets/img/github.png # can be png, svg, jpg
+  logo_dark: assets/img/github-dark.png
+  title: github
+  url: https://github.com/mannmalviya
+
+Hevy:
+  logo: assets/img/hevy.png # can be png, svg, jpg
+  logo_dark: assets/img/hevy-dark.png
+  title: Hevy
+  url: https://hevy.com/user/zyzz7
+
+chess:
+  logo: assets/img/chess.png # can be png, svg, jpg
+  logo_dark: assets/img/chess-dark.png
+  title: Chess.com
+  url: https://www.chess.com/member/lvl12tensorboi
