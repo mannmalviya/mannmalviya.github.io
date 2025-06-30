@@ -157,7 +157,7 @@ ninja.data = [{
         title: 'Gmail',
         section: 'Socials',
         handler: () => {
-          window.open("mmalviya@ucsc.edu", "_blank");
+          window.open("mailto:mmalviya@ucsc.edu", "_blank");
         },
       },{
         id: 'social-linkedin',
