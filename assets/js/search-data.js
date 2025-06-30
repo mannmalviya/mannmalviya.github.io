@@ -18,13 +18,13 @@ ninja.data = [{
           },
         },{id: "nav-notes",
           title: "Notes",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my academic notes and study materials.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Notes/";
           },
         },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -107,11 +107,76 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "notes-my-first-note",
-          title: 'My First Note',
-          description: "A brief description of this note",
+          section: "News",},{id: "notes-cse-100",
+          title: 'CSE-100',
+          description: "Logic Design",
           section: "Notes",handler: () => {
-              window.location.href = "/notes/1_notes/";
+              window.location.href = "/notes/CSE-100_notes/";
+            },},{id: "notes-cse-101",
+          title: 'CSE-101',
+          description: "Introduction to Data Structures and Algorithms",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-101_notes/";
+            },},{id: "notes-cse-102",
+          title: 'CSE-102',
+          description: "Introduction to Analysis of Algorithms",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-102_notes/";
+            },},{id: "notes-cse-103",
+          title: 'CSE-103',
+          description: "Computational Models",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-103_notes/";
+            },},{id: "notes-cse-120",
+          title: 'CSE-120',
+          description: "Computer Architecture",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-120_notes/";
+            },},{id: "notes-cse-12",
+          title: 'CSE-12',
+          description: "Computer Systems and Assembly Language and Lab",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-12_notes/";
+            },},{id: "notes-cse-130",
+          title: 'CSE-130',
+          description: "Principles of Computer Systems Design",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-130_notes/";
+            },},{id: "notes-cse-13s",
+          title: 'CSE-13S',
+          description: "Computer Systems and C Programming",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-13S_notes/";
+            },},{id: "notes-cse-140",
+          title: 'CSE-140',
+          description: "Artificial Intelligence",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-140_notes/";
+            },},{id: "notes-cse-16",
+          title: 'CSE-16',
+          description: "Applied Discrete Mathematics",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-16_notes/";
+            },},{id: "notes-math-100",
+          title: 'Math-100',
+          description: "Introduction to Proof and Problem Solving",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/Math100_notes/";
+            },},{id: "notes-math-105a",
+          title: 'Math-105a',
+          description: "Real Analysis",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/Math105a_notes/";
+            },},{id: "notes-quantum-mechanics",
+          title: 'Quantum Mechanics',
+          description: "",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/QM_notes/";
+            },},{id: "notes-stat-131",
+          title: 'Stat-131',
+          description: "Introduction to Probability Theory",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/Stat-131_notes/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
