@@ -50,7 +50,7 @@ gmail:
   logo: assets/img/gmail.png # can be png, svg, jpg
   logo_dark: assets/img/gmail-dark.png
   title: Gmail
-  url: mmalviya@ucsc.edu
+  url: mailto:mmalviya@ucsc.edu
 
 linkedin:
   logo: assets/img/linkedin.png # can be png, svg, jpg
