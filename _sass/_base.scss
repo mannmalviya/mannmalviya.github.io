@@ -495,8 +495,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 0.9rem;
 
   .container {
@@ -1433,15 +1433,12 @@ figure.cover {
 
 
 
-
-.social .contact-icons a img {  
+.social .contact-icons a img {    
   transition: all 0.3s ease-in-out;  
-}  
-  
-.social .contact-icons a:hover img {  
-  transform: scale(1.15) rotate(5deg);  
-  border-color: var(--global-theme-color);  
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  
+}    
+    
+.social .contact-icons a:hover img {    
+  transform: scale(1.15) rotate(5deg);    
 }
 
 /*
@@ -1468,3 +1465,59 @@ If you want a border around the icon on hover:
 }
 
 */
+
+
+
+footer .footer-social {  
+  margin-bottom: 0.5rem; /* Reduced margin to keep it closer */  
+    
+  .contact-icons {  
+    font-size: 1.5rem; /* Smaller for footer */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    gap: 1rem; /* Increased spacing between icons */  
+      
+    a {  
+      display: inline-block;  
+      position: relative;  
+      transition: all 0.3s ease-in-out;  
+        
+      img {  
+        width: 1.5rem;  
+        height: 1.5rem;  
+        margin-bottom: 0;  
+        transition: all 0.3s ease-in-out;  
+      }  
+        
+      svg {  
+        width: 1.5rem;  
+        height: 1.5rem;  
+        margin-bottom: 0;  
+        transition: all 0.3s ease-in-out;  
+          
+        image {  
+          width: 1.5rem;  
+          height: 1.5rem;  
+        }  
+      }  
+        
+      /* Hover animations */  
+      &:hover {  
+        transform: scale(1.15) rotate(5deg);    
+          
+        img, svg {  
+          transform: scale(1.15) rotate(5deg);    
+        }  
+      }  
+    }  
+  }  
+}  
+  
+/* Ensure footer container has proper spacing */  
+footer .container {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  gap: 0.25rem; /* Minimal gap between social icons and copyright */  
+}
