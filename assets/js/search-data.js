@@ -107,64 +107,64 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "notes-cse-100",
-          title: 'CSE-100',
-          description: "Logic Design",
+          section: "News",},{id: "notes-logic-design",
+          title: 'Logic Design',
+          description: "Based on UCSC&#39;s CSE-100",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-100_notes/";
-            },},{id: "notes-cse-101",
-          title: 'CSE-101',
-          description: "Introduction to Data Structures and Algorithms",
+            },},{id: "notes-introduction-to-data-structures-and-algorithms",
+          title: 'Introduction to Data Structures and Algorithms',
+          description: "Based on UCSC&#39;s CSE-101",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-101_notes/";
-            },},{id: "notes-cse-102",
-          title: 'CSE-102',
-          description: "Introduction to Analysis of Algorithms",
+            },},{id: "notes-introduction-to-analysis-of-algorithms",
+          title: 'Introduction to Analysis of Algorithms',
+          description: "Based on UCSC&#39;s CSE-102",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-102_notes/";
-            },},{id: "notes-cse-103",
-          title: 'CSE-103',
-          description: "Computational Models",
+            },},{id: "notes-computational-models",
+          title: 'Computational Models',
+          description: "Based on UCSC&#39;s CSE-103",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-103_notes/";
-            },},{id: "notes-cse-120",
-          title: 'CSE-120',
-          description: "Computer Architecture",
+            },},{id: "notes-computer-architecture",
+          title: 'Computer Architecture',
+          description: "Based on UCSC&#39;s CSE-120",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-120_notes/";
             },},{id: "notes-computer-systems-and-assembly-language",
           title: 'Computer Systems and Assembly Language',
-          description: "Computer Systems and Assembly Language and Lab",
+          description: "Based on UCSC&#39;s CSE-12",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-12_notes/";
-            },},{id: "notes-cse-130",
-          title: 'CSE-130',
-          description: "Principles of Computer Systems Design",
+            },},{id: "notes-principles-of-computer-systems-design",
+          title: 'Principles of Computer Systems Design',
+          description: "Based on UCSC&#39;s CSE-130",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-130_notes/";
-            },},{id: "notes-cse-13s",
-          title: 'CSE-13S',
-          description: "Computer Systems and C Programming",
+            },},{id: "notes-computer-systems-and-c-programming",
+          title: 'Computer Systems and C Programming',
+          description: "Based on UCSC&#39;s CSE-13S",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-13S_notes/";
-            },},{id: "notes-cse-140",
-          title: 'CSE-140',
-          description: "Artificial Intelligence",
+            },},{id: "notes-artificial-intelligence",
+          title: 'Artificial Intelligence',
+          description: "Based on UCSC&#39;s CSE-140",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-140_notes/";
-            },},{id: "notes-cse-16",
-          title: 'CSE-16',
-          description: "Applied Discrete Mathematics",
+            },},{id: "notes-applied-discrete-mathematics",
+          title: 'Applied Discrete Mathematics',
+          description: "Based on UCSC&#39;s CSE-16",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-16_notes/";
-            },},{id: "notes-math-100",
-          title: 'Math-100',
-          description: "Introduction to Proof and Problem Solving",
+            },},{id: "notes-introduction-to-proof-and-problem-solving",
+          title: 'Introduction to Proof and Problem Solving',
+          description: "Based on UCSC&#39;s Math-100",
           section: "Notes",handler: () => {
               window.location.href = "/notes/Math100_notes/";
-            },},{id: "notes-math-105a",
-          title: 'Math-105a',
-          description: "Real Analysis",
+            },},{id: "notes-real-analysis",
+          title: 'Real Analysis',
+          description: "Based on UCSC&#39;s Real Analysis",
           section: "Notes",handler: () => {
               window.location.href = "/notes/Math105a_notes/";
             },},{id: "notes-quantum-mechanics",
@@ -172,9 +172,9 @@ ninja.data = [{
           description: "",
           section: "Notes",handler: () => {
               window.location.href = "/notes/QM_notes/";
-            },},{id: "notes-stat-131",
-          title: 'Stat-131',
-          description: "Introduction to Probability Theory",
+            },},{id: "notes-introduction-to-probability-theory",
+          title: 'Introduction to Probability Theory',
+          description: "Based on UCSC&#39;s Stat-131",
           section: "Notes",handler: () => {
               window.location.href = "/notes/Stat-131_notes/";
             },},{id: "projects-project-1",
