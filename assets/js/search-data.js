@@ -132,8 +132,8 @@ ninja.data = [{
           description: "Computer Architecture",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-120_notes/";
-            },},{id: "notes-cse-12",
-          title: 'CSE-12',
+            },},{id: "notes-computer-systems-and-assembly-language",
+          title: 'Computer Systems and Assembly Language',
           description: "Computer Systems and Assembly Language and Lab",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-12_notes/";
