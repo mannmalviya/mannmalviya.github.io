@@ -1,7 +1,7 @@
 ---  
 layout: page  
-title: CSE-103  
-description: Computational Models   
+title: Computational Models  
+description: Based on UCSC's CSE-103    
 img: assets/img/TM.png  
 importance: 1  
 category: Theoretical Computer Science  

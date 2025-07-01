@@ -1,7 +1,7 @@
 ---  
 layout: page  
-title: Math-100  
-description: Introduction to Proof and Problem Solving  
+title: Introduction to Proof and Problem Solving  
+description: Based on UCSC's Math-100   
 img: assets/img/note-thumbnail.jpg  
 importance: 1  
 category: Math  

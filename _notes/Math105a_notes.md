@@ -1,7 +1,7 @@
 ---  
 layout: page  
-title: Math-105a  
-description: Real Analysis  
+title: Real Analysis  
+description: Based on UCSC's Real Analysis   
 img: assets/img/note-thumbnail.jpg  
 importance: 1  
 category: Math  

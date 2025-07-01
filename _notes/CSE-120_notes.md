@@ -1,7 +1,7 @@
 ---  
 layout: page  
-title: CSE-120  
-description: Computer Architecture  
+title: Computer Architecture  
+description: Based on UCSC's CSE-120    
 img: assets/img/risc5_arch.png  
 importance: 1  
 category: Systems & Programming  

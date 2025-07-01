@@ -1,7 +1,7 @@
 ---  
 layout: page  
-title: CSE-16  
-description: Applied Discrete Mathematics  
+title: Applied Discrete Mathematics  
+description: Based on UCSC's CSE-16   
 img: assets/img/note-thumbnail.jpg  
 importance: 1  
 category: Math  

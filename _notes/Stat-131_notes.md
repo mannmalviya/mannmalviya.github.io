@@ -1,7 +1,7 @@
 ---  
 layout: page  
-title: Stat-131  
-description: Introduction to Probability Theory  
+title: Introduction to Probability Theory  
+description: Based on UCSC's Stat-131   
 img: assets/img/note-thumbnail.jpg  
 importance: 1  
 category: Math  

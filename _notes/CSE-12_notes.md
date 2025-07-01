@@ -1,7 +1,7 @@
 ---  
 layout: page  
 title: Computer Systems and Assembly Language   
-description: Computer Systems and Assembly Language and Lab  
+description: Based on UCSC's CSE-12  
 img: assets/img/transistor.png  
 importance: 1  
 category: Systems & Programming  

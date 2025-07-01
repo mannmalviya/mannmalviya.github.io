@@ -656,6 +656,9 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .card-text {  
+    color: #666666; // grey for light theme  
+  }
   a {
     text-decoration: none;
 
@@ -699,7 +702,9 @@ footer.sticky-bottom {
     }  
   }  
 }
-
+[data-theme="dark"] .projects .card-text {  
+  color: #ffffff; // white for dark theme  
+}
 
 // Publications
 
