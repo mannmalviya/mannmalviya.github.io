@@ -2,7 +2,7 @@
 layout: page  
 title: Quantum Mechanics
 description:   
-img: assets/img/  
+img: assets/img/coming_soon.png
 importance: 1  
 category: Physics  
 ---  

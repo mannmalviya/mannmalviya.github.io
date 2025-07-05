@@ -2,8 +2,8 @@
 layout: page  
 title: Computer Systems and C Programming  
 description: Based on UCSC's CSE-13S   
-img: assets/img/  
-importance: 1  
+img: assets/img/coming_soon.png
+importance: 2  
 category: Systems & Programming  
 ---  
   

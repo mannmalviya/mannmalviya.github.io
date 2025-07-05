@@ -27,3 +27,8 @@ latest_posts:
 ---
 
 I am Mann, a undergrad at UC Santa Cruz studying Computer Science.
+
+🚧 Site Under Construction
+
+
+Thanks for visiting! This website is a work in progress. Check back soon for updates on my projects, blog posts, and more.

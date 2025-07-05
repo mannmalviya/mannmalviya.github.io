@@ -2,8 +2,8 @@
 layout: page  
 title: Artificial Intelligence  
 description: Based on UCSC's CSE-140     
-img: assets/img/note-thumbnail.jpg  
-importance: 1  
+img: assets/img/coming_soon.png
+importance: 4  
 category: Theoretical Computer Science  
 ---  
   

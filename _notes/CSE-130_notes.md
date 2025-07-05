@@ -2,8 +2,8 @@
 layout: page  
 title: Principles of Computer Systems Design  
 description: Based on UCSC's CSE-130    
-img: assets/img/note-thumbnail.jpg  
-importance: 1  
+img: assets/img/coming_soon.png
+importance: 5  
 category: Systems & Programming  
 ---  
   

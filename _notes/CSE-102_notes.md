@@ -3,7 +3,7 @@ layout: page
 title: Introduction to Analysis of Algorithms  
 description: Based on UCSC's CSE-102   
 img: assets/img/graph.png  
-importance: 1  
+importance: 2  
 category: Theoretical Computer Science  
 ---  
   
