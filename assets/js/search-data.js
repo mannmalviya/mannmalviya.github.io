@@ -107,7 +107,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "notes-logic-design",
+          section: "News",},{id: "notes-parallel-computing",
+          title: 'Parallel Computing',
+          description: "Based on Stanford&#39;s CS149",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CS-149_notes/";
+            },},{id: "notes-logic-design",
           title: 'Logic Design',
           description: "Based on UCSC&#39;s CSE-100",
           section: "Notes",handler: () => {
@@ -124,7 +129,7 @@ ninja.data = [{
               window.location.href = "/notes/CSE-102_notes/";
             },},{id: "notes-computational-models",
           title: 'Computational Models',
-          description: "Based on UCSC&#39;s CSE-103",
+          description: "Based on UCSC&#39;s CSE-103 &amp; MIT&#39;s 18.404J",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-103_notes/";
             },},{id: "notes-computer-architecture",
@@ -142,6 +147,11 @@ ninja.data = [{
           description: "Based on UCSC&#39;s CSE-130",
           section: "Notes",handler: () => {
               window.location.href = "/notes/CSE-130_notes/";
+            },},{id: "notes-operating-systems",
+          title: 'Operating Systems',
+          description: "",
+          section: "Notes",handler: () => {
+              window.location.href = "/notes/CSE-134_notes/";
             },},{id: "notes-computer-systems-and-c-programming",
           title: 'Computer Systems and C Programming',
           description: "Based on UCSC&#39;s CSE-13S",
@@ -164,7 +174,7 @@ ninja.data = [{
               window.location.href = "/notes/Math100_notes/";
             },},{id: "notes-real-analysis",
           title: 'Real Analysis',
-          description: "Based on UCSC&#39;s Real Analysis",
+          description: "Based on UCSC&#39;s Math-105a &amp; MIT&#39;s 18.100A",
           section: "Notes",handler: () => {
               window.location.href = "/notes/Math105a_notes/";
             },},{id: "notes-quantum-mechanics",
@@ -174,7 +184,7 @@ ninja.data = [{
               window.location.href = "/notes/QM_notes/";
             },},{id: "notes-introduction-to-probability-theory",
           title: 'Introduction to Probability Theory',
-          description: "Based on UCSC&#39;s Stat-131",
+          description: "Based on UCSC&#39;s Stat-131 &amp; Stanford&#39;s CS109",
           section: "Notes",handler: () => {
               window.location.href = "/notes/Stat-131_notes/";
             },},{id: "projects-project-1",
