@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Mann, a undergrad at UC Santa Cruz studying Computer Science.
+Hi, I'm Mann 👋, a undergrad at UC Santa Cruz studying Computer Science.
 
 🚧 Site Under Construction
 
