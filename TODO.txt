@@ -1,0 +1,7 @@
+In this document I shall maintain a list of features and things I want to add to the personal website.
+
+	1. Remove the default mode from the dark-light mode toggle
+		`-> Also Remove the News block
+	2. Write the Hello World Blog post!
+	3. Add the Textbook followed, the lecture links(if applicable) to all of 	the notes pages.
+	4. In Social links add your leetcode profile and your Codeforces profile. basically do all the problems on leetcode. 
