@@ -1567,3 +1567,15 @@ footer .container {
     display: none;  
   }  
 }
+
+// This removed the extra gap bellow the footer due to the bodys flex box
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
