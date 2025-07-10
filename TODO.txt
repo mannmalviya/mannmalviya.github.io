@@ -4,4 +4,3 @@ In this document I shall maintain a list of features and things I want to add to
 	3. Add the Textbook followed, the lecture links(if applicable) to all of the notes pages.
 	4. In Social links add your leetcode profile and your Codeforces profile. basically do all the problems on leetcode. 
 	5. Make size of the favicon(the img in the tab) bigger
-	6. make the footer(thing at the bottom of page that contains icons+copy right) a darker different color

@@ -58,18 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-why-i-quit-jiu-jitsu-and-chess",
-        
-          title: "Why I quit Jiu-Jitsu and Chess",
-        
-        description: "Quitting Jiu-Jitsu &amp; Chess",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/quitting_bjj/";
-          
-        },
-      },{id: "post-hello-world",
+        },{id: "post-hello-world",
         
           title: "Hello World",
         
@@ -78,17 +67,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/HelloWorld/";
-          
-        },
-      },{id: "post-the-champion-has-a-name",
-        
-          title: "The champion has a name",
-        
-        description: "on Charles Oliveira",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/DoBronx/";
           
         },
       },{id: "books-the-godfather",
