@@ -47,37 +47,37 @@
 # zotero_username: # your zotero username
 
 gmail:
-  logo: assets/img/gmail.png # can be png, svg, jpg
-  logo_dark: assets/img/gmail-dark.png
+  logo: assets/img/gmail-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/gmail.png
   title: Gmail
   url: mailto:mmalviya@ucsc.edu
 
 linkedin:
-  logo: assets/img/linkedin.png # can be png, svg, jpg
-  logo_dark: assets/img/linkedin-dark.png
+  logo: assets/img/linkedin-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/linkedin.png
   title: LinkedIn
   url: https://www.linkedin.com/in/mann-malviya-610765274/
 
 instagram:
-  logo: assets/img/instagram.png # can be png, svg, jpg
-  logo_dark: assets/img/instagram-dark.png
+  logo: assets/img/instagram-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/instagram.png
   title: Instagram
   url: https://www.instagram.com/mann_malviya_/
 
 Github:
-  logo: assets/img/github.png # can be png, svg, jpg
-  logo_dark: assets/img/github-dark.png
+  logo: assets/img/github-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/github.png
   title: github
   url: https://github.com/mannmalviya
 
 Hevy:
-  logo: assets/img/hevy.png # can be png, svg, jpg
-  logo_dark: assets/img/hevy-dark.png
+  logo: assets/img/hevy-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/hevy.png
   title: Hevy
   url: https://hevy.com/user/zyzz7
 
 chess:
-  logo: assets/img/chess.png # can be png, svg, jpg
-  logo_dark: assets/img/chess-dark.png
+  logo: assets/img/chess-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/chess.png
   title: Chess.com
   url: https://www.chess.com/member/lvl12tensorboi

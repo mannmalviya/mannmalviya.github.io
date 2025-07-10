@@ -493,15 +493,26 @@ footer.fixed-bottom {
   }
 }
 
-footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 0.9rem;
-
-  .container {
-    text-align: center;
-  }
+footer.sticky-bottom {  
+  border-top: 1px solid var(--global-divider-color);  
+  padding-top: 15px;  
+  padding-bottom: 15px;  
+  font-size: 0.9rem;  
+  background-color: var(--global-footer-bg-color);  // Apply to footer, not container  
+    
+  .container {  
+    text-align: center;  
+    color: var(--global-footer-text-color);  // Keep text color on container  
+  }  
+    
+  a {  
+    color: var(--global-footer-link-color);  
+      
+    &:hover {  
+      color: var(--global-theme-color);  
+      text-decoration: none;  
+    }  
+  }  
 }
 
 // CV
@@ -1483,7 +1494,7 @@ If you want a border around the icon on hover:
 
 
 footer .footer-social {  
-  margin-bottom: 0.5rem; /* Reduced margin to keep it closer */  
+  margin-bottom: 0rem; /* Reduced margin to keep it closer */  
     
   .contact-icons {  
     font-size: 1.5rem; /* Smaller for footer */  
@@ -1534,4 +1545,25 @@ footer .container {
   flex-direction: column;  
   align-items: center;  
   gap: 0.25rem; /* Minimal gap between social icons and copyright */  
+}
+
+// Invert social icons on profiles page  
+.post article .social .contact-icons a {  
+  img.only-light {  
+    display: none;  
+  }  
+    
+  img.only-dark {  
+    display: inline-block;  
+  }  
+}  
+  
+[data-theme="dark"] .post article .social .contact-icons a {  
+  img.only-light {  
+    display: inline-block;  
+  }  
+    
+  img.only-dark {  
+    display: none;  
+  }  
 }
