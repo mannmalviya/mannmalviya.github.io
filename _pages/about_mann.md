@@ -1,5 +1,10 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi, I'm Mann Malviya 👋, I am a senior at UCSC majoring in Computer Science(and minoring in Math). I am an International student from India.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have spent a lot of time writting C code, learning how Operating Systems work, and understanding the fundamentals of computer architecture. At the same time, I'm also drawn to the world of AI, currently I am working on a production ready RAG chat bot for a companies private knowledge base as part of my internship at Chelsio Communications. This project has led me to further trying to understand the internals of how LLMs actually work on the inside.
+
+Aside from engineering interests, I like to lift weights, run, practice Brazilian Jiu-Jitsu & boxing and play/study chess.
+
+
+
+

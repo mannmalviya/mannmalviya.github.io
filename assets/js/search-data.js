@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/CV/";
           },
+        },{id: "nav-aboutme",
+          title: "AboutMe",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "dropdown-books",
               title: "Books",
               description: "",
@@ -51,14 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/Quotes/";
               },
-            },{id: "nav-aboutme",
-          title: "AboutMe",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "post-hello-world",
+            },{id: "post-hello-world",
         
           title: "Hello World",
         
