@@ -5,8 +5,13 @@ layout: page
   <article>  
     {% if page.profiles %}  
       {% for profile in page.profiles %}  
-        <hr>  
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">  
+        {% unless forloop.first %}  
+          <hr>  
+        {% endunless %}  
+        {% if profile.heading %}  
+          <h2>{{ profile.heading }}</h2>  
+        {% endif %}  
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}  
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}  
             {% if profile.image_circular %}  
