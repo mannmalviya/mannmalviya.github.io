@@ -192,7 +192,7 @@ ninja.data = [{
         title: 'Leetcode',
         section: 'Socials',
         handler: () => {
-          window.open("https://leetcode.com/u/lvl12_Tensor_Boi/", "_blank");
+          window.open("https://leetcode.com/u/lvl12-Tensor-Boi/", "_blank");
         },
       },{
         id: 'social-CodeForces',
