@@ -39,10 +39,14 @@ horizontal: false
 
 ---
 <details>
+  <summary>“Give a man a purpose and the ability to achieve it and he will crawl over broken glass with a smile” — <cite>Unknown</cite></summary>
+  <p>Categories: <em>mindset, stoicism</em></p>
+</details>
+---
+<details>
   <summary>“Pain is inevitable, suffering is optional.” — <cite></cite></summary>
   <p>Categories: <em>mindset, stoicism</em></p>
 </details>
-
 
 ---
 <details>

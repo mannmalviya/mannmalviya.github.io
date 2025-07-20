@@ -67,14 +67,32 @@ instagram:
 Github:
   logo: assets/img/github-dark.png # can be png, svg, jpg
   logo_dark: assets/img/github.png
-  title: github
+  title: GitHub
   url: https://github.com/mannmalviya
+
+LeetCode:
+  logo: assets/img/leetcode-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/leetcode.png
+  title: LeetCode
+  url: https://leetcode.com/u/lvl12_Tensor_Boi/
+
+CodeForces:
+  logo: assets/img/codeforces-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/codeforces.png
+  title: Codeforces
+  url: https://codeforces.com/profile/lvl12_Tensor_boi
 
 Hevy:
   logo: assets/img/hevy-dark.png # can be png, svg, jpg
   logo_dark: assets/img/hevy.png
   title: Hevy
   url: https://hevy.com/user/zyzz7
+
+strava:
+  logo: assets/img/strava-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/strava.png
+  title: Strava
+  url: https://www.strava.com/athletes/177548756
 
 chess:
   logo: assets/img/chess-dark.png # can be png, svg, jpg
