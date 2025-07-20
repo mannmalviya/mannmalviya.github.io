@@ -188,11 +188,32 @@ ninja.data = [{
           window.open("https://github.com/mannmalviya", "_blank");
         },
       },{
+        id: 'social-LeetCode',
+        title: 'Leetcode',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://leetcode.com/u/lvl12_Tensor_Boi/", "_blank");
+        },
+      },{
+        id: 'social-CodeForces',
+        title: 'Codeforces',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://codeforces.com/profile/lvl12_Tensor_boi", "_blank");
+        },
+      },{
         id: 'social-Hevy',
         title: 'Hevy',
         section: 'Socials',
         handler: () => {
           window.open("https://hevy.com/user/zyzz7", "_blank");
+        },
+      },{
+        id: 'social-strava',
+        title: 'Strava',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.strava.com/athletes/177548756", "_blank");
         },
       },{
         id: 'social-chess',
