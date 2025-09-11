@@ -41,18 +41,24 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
 
-<!-- GitHub Contribution Graph with Theme Support -->  
-<div class="github-contributions text-center mb-4">  
-  <h3>GitHub Contributions</h3>  
-  <img   
-    src="https://ghchart.rshah.org/mannmalviya"   
-    alt="GitHub Contribution Graph"   
-    class="only-light w-100">  
-  <img     
-    src="https://ghchart.rshah.org/mannmalviya"     
-    alt="GitHub Contribution Graph"     
-    class="only-dark w-100">
+
+<!-- Announcements -->  
+<div class="announcements">  
+  <h3>Recent Updates 📢</h3>  
+  <div class="table-responsive">  
+    <table class="table table-sm table-borderless">  
+      {% for announcement in site.announcements limit: 5 %}  
+        <tr>  
+          <th scope="row" style="width: 20%">{{ announcement.date | date: '%b %d, %Y' }}</th>  
+          <td>  
+            <a class="news-title" href="{{ announcement.url | relative_url }}">{{ announcement.title }}</a>  
+          </td>  
+        </tr>  
+      {% endfor %}  
+    </table>  
+  </div>  
 </div>
+
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
@@ -77,4 +83,18 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
+</div>
+
+
+<!-- GitHub Contribution Graph with Theme Support -->  
+<div class="github-contributions text-center mb-4">  
+  <h3>GitHub Contributions</h3>  
+  <img   
+    src="https://ghchart.rshah.org/mannmalviya"   
+    alt="GitHub Contribution Graph"   
+    class="only-light w-100">  
+  <img     
+    src="https://ghchart.rshah.org/mannmalviya"     
+    alt="GitHub Contribution Graph"     
+    class="only-dark w-100">
 </div>

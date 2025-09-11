@@ -141,12 +141,17 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  announcements:  
+    output: true  
+    permalink: /announcements/:name/
+
   books:
-    output: true
+    output: false
   projects:
     output: true
   notes:
     output: true
+  
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

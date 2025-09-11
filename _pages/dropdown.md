@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: Quotes
     permalink: /Quotes/
+  - title: divider
+  - title: Old Announcements
+    permalink: /announcements/  
 ---
