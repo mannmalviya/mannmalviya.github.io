@@ -58,7 +58,19 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/Quotes/";
               },
-            },{id: "books-the-godfather",
+            },{id: "dropdown-old-announcements",
+              title: "Old Announcements",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/announcements/";
+              },
+            },{id: "announcements-mini-projects-tick-tack-toe-amp-pack",
+          title: 'Mini Projects: Tick-Tack-Toe &amp;amp; Pack',
+          description: "Will work on two mini projects Tick Tack Toe &amp; Pac Man AI",
+          section: "Announcements",handler: () => {
+              window.location.href = "/announcements/2025-09-11-upcoming-mini-projects/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
