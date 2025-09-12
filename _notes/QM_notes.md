@@ -7,5 +7,5 @@ importance: 1
 category: Physics  
 ---  
   
-Your note content goes here...
+![Under Construction]({{ 'assets/img/coming_soon.png' | relative_url }})
 

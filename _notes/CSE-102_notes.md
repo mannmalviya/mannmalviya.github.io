@@ -7,5 +7,5 @@ importance: 2
 category: Theoretical Computer Science  
 ---  
   
-Your note content goes here...
+![Under Construction]({{ 'assets/img/coming_soon.png' | relative_url }})
 

@@ -9,5 +9,5 @@ category: Systems & Programming
   
 Under Construction
 
-<insert image for under construct>
+![Under Construction]({{ 'assets/img/coming_soon.png' | relative_url }})
 
