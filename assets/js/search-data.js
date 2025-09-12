@@ -65,9 +65,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/announcements/";
               },
-            },{id: "announcements-mini-projects-tick-tack-toe-amp-pack",
-          title: 'Mini Projects: Tick-Tack-Toe &amp;amp; Pack',
-          description: "Will work on two mini projects Tick Tack Toe &amp; Pac Man AI",
+            },{id: "announcements-mini-projects-tic-tac-toe-amp-pac-man",
+          title: 'Mini Projects: Tic-Tac-Toe &amp;amp; Pac-Man',
+          description: "Will work on two mini projects: Tic-Tac-Toe &amp; Pac-Man AI",
           section: "Announcements",handler: () => {
               window.location.href = "/announcements/2025-09-11-upcoming-mini-projects/";
             },},{id: "books-the-godfather",
@@ -155,8 +155,8 @@ ninja.data = [{
           description: "Based on UCSC&#39;s Stat-131 &amp; Stanford&#39;s CS109",
           section: "Notes",handler: () => {
               window.location.href = "/notes/Stat-131_notes/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
+            },},{id: "projects-rag-chat-bot",
+          title: 'RAG Chat Bot',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
