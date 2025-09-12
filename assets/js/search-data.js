@@ -172,7 +172,7 @@ ninja.data = [{
               window.location.href = "/notes/Stat-131_notes/";
             },},{id: "projects-rag-chat-bot",
           title: 'RAG Chat Bot',
-          description: "with background image",
+          description: "Coming Soon",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{
