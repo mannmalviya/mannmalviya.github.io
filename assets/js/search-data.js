@@ -65,16 +65,31 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/announcements/";
               },
-            },{id: "announcements-mini-projects-tic-tac-toe-amp-pac-man",
-          title: 'Mini Projects: Tic-Tac-Toe &amp;amp; Pac-Man',
+            },{id: "announcements-upcoming-mini-projects-tic-tac-toe-amp-pac-man",
+          title: 'Upcoming Mini Projects: Tic-Tac-Toe &amp;amp; Pac-Man',
           description: "Will work on two mini projects: Tic-Tac-Toe &amp; Pac-Man AI",
           section: "Announcements",handler: () => {
               window.location.href = "/announcements/2025-09-11-upcoming-mini-projects/";
+            },},{id: "books-the-boy-at-the-top-of-the-mountain",
+          title: 'The Boy At The Top Of The Mountain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/build_a_llm/";
+            },},{id: "books-the-boy-at-the-top-of-the-mountain",
+          title: 'The Boy At The Top Of The Mountain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_boy_at_the_top_of_the_mountain/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "books-the-order-of-time",
+          title: 'The Order of Time',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_order_of_time/";
             },},{id: "notes-parallel-computing",
           title: 'Parallel Computing',
           description: "Based on Stanford&#39;s CS149",
