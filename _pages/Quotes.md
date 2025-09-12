@@ -2,14 +2,15 @@
 layout: page
 title: Quotes
 permalink: /Quotes/
-description: A Collection of Quotes I really like (in no particular order)
+description: A Collection of my favourite Quotes (in no particular order)
 nav: false
 display_categories: [work, fun]
 horizontal: false
 ---
 
 <blockquote>
-  <p>Quotes are essentially heurisitcs or abstractions, they are short sentences that encapsulate deeper more complex ideas(often spoken/written by great people). Someone spent a lot time and effort in understanding some truth whether it be about human behaviour, science or war, and the main idea/takeaway of this finding can be useful to the masses either because it gives a direct actionable rule to improve your life, a quick answer to a very difficult question or just a funny anecdote/pun to have a chuckle. a lot of energy had to be put into coming up with this idea/fact and often explaining why it's correct or true is equally difficult(someitmes impossible\*If the person who said the quote never explained any further and just died with that secret, Buddha for example, they understood it but never shared it)\Also most people don't ask why? they just want quick answers that can make their life instantly better so quotes are basically it, they tell you exactly what you need nothing more nothing less, there is a class of quotes though that require you to put in some work to actually understand what they are trying to convey</p>
+  <p>Quotes are essentially heurisitcs or abstractions, they are short sentences that encapsulate deeper more complex ideas(often spoken/written by great people). Someone spent a lot time and effort in understanding some truth whether it be about human behaviour, science or war, and the main idea/takeaway of this finding can be useful to the masses either because it gives a direct actionable rule to improve your life, a quick answer to a very difficult question or just a funny anecdote/pun to have a chuckle. a lot of energy had to be put into coming up with this idea/fact and often explaining why it's correct or true is equally difficult(someitmes impossible, like when the person who said the quote never explained any further and just died with that secret)Also most people don't care for the "why?" they just want quick answers that can make their life instantly better so quotes are basically what they are looking for, they tell you exactly what you need nothing more nothing less(there is a class of quotes though that require you to put in some work to actually understand what they are trying to convey)</p>
+  <p>These are a collection of quotes I really like and return to often(or atleast try to) in my life.</p>
 </blockquote>
 
 <div style="border: 1px solid var(--global-divider-color); padding: 1em; background-color: var(--global-card-bg-color); border-left: 4px solid var(--global-theme-color); border-radius: 6px; margin-bottom: 1.5em;">  
@@ -153,7 +154,10 @@ horizontal: false
     <summary style="font-weight: bold; color: var(--global-text-color);">  
       <span style="color: var(--global-theme-color);">"Ab nahi to kab."</span> — <cite>Izzys Indian friend</cite>  
     </summary>  
-    <p>.</p>  
+    <p>
+      <a href="https://www.youtube.com/watch?v=nVnjkMpQqU8" target="_blank">Video of Izzy saying the Quote</a><br>
+      <a href="https://www.youtube.com/watch?v=-UGrat_EoN0" target="_blank">Clip of Izzy saying the Quote</a>
+    </p>  
   </details>  
 </div>
 
@@ -216,6 +220,10 @@ horizontal: false
     <summary style="font-weight: bold; color: var(--global-text-color);">  
       <span style="color: var(--global-theme-color);">"Things always have to get worse before they get better. Nothing ever just starts great and ends up greater, that's just not real life."</span> — <cite>Star Wars Theory</cite>  
     </summary>  
-    <p>.</p>  
+    <p>
+      <a href="https://www.youtube.com/watch?v=956Nc8uenRk&t=264s" target="_blank">
+        Source Video from which Quote is taken. Time Stamp: 4:24
+      </a>
+    </p>  
   </details>  
 </div>

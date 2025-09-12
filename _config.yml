@@ -144,9 +144,8 @@ collections:
   announcements:  
     output: true  
     permalink: /announcements/:name/
-
   books:
-    output: false
+    output: true
   projects:
     output: true
   notes:

@@ -40,23 +40,28 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+<!-- Announcements -->
+<h3>
+  <a href="{{ '/announcements/' | relative_url }}" style="color: inherit">
+    Recent Updates 📢
+  </a>
+</h3>
 
-
-<!-- Announcements -->  
-<div class="announcements">  
-  <h3>Recent Updates 📢</h3>  
-  <div class="table-responsive">  
-    <table class="table table-sm table-borderless">  
-      {% for announcement in site.announcements limit: 5 %}  
-        <tr>  
-          <th scope="row" style="width: 20%">{{ announcement.date | date: '%b %d, %Y' }}</th>  
-          <td>  
-            <a class="news-title" href="{{ announcement.url | relative_url }}">{{ announcement.title }}</a>  
-          </td>  
-        </tr>  
-      {% endfor %}  
-    </table>  
-  </div>  
+<div class="table-responsive">  
+  <table class="table table-sm table-borderless">  
+    {% for announcement in site.announcements limit: 5 %}  
+      <tr>  
+        <th scope="row" style="width: 20%">
+          {{ announcement.date | date: '%b %d, %Y' }}
+        </th>  
+        <td>  
+          <a class="news-title" href="{{ announcement.url | relative_url }}">
+            {{ announcement.title }}
+          </a>  
+        </td>  
+      </tr>  
+    {% endfor %}  
+  </table>  
 </div>
 
 

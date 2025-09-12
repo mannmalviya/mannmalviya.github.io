@@ -5,3 +5,12 @@ In this document I shall maintain a list of features and things I want to add to
 	4. In Social links add your leetcode profile and your Codeforces profile. basically do all the problems on leetcode. 
 	5. Make size of the favicon(the img in the tab) bigger, maybe change it to something else?
 	7. Add the books read + review page
+
+
+Notes:
+If you want to change stuff on the books(book shelf page) page like underlining Technical Reads, Non-Techincal Reads & Textbooks you need to modify the layouts/book-shelf.liquid
+
+also for the fields for each book:
+
+status: reading # abandoned, finished, interested, paused, queued, reading, reread
+book_type: Technical Reads  # Non-Technical Reads, Textbooks

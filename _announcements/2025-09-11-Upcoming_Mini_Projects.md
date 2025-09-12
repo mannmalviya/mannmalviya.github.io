@@ -1,5 +1,5 @@
 ---  
-title: "Mini Projects: Tic-Tac-Toe & Pac-Man"  
+title: "Upcoming Mini Projects: Tic-Tac-Toe & Pac-Man"  
 date: 2025-09-11  
 description: "Will work on two mini projects: Tic-Tac-Toe & Pac-Man AI"  
 layout: announcement
