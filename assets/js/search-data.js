@@ -80,11 +80,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_boy_at_the_top_of_the_mountain/";
-            },},{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
             },},{id: "books-the-order-of-time",
           title: 'The Order of Time',
           description: "",
