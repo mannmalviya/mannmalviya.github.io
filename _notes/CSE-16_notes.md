@@ -5,6 +5,8 @@ description: Based on UCSC's CSE-16
 img: assets/img/coming_soon.png
 importance: 1  
 category: Math  
+published: false
+
 ---  
   
 ![Under Construction]({{ 'assets/img/coming_soon.png' | relative_url }})

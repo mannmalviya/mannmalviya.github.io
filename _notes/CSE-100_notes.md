@@ -12,7 +12,9 @@ books:
 video_playlist_url1: https://www.youtube.com/playlist?list=PLLHwVz4euyqgKJ8rizbW7ZWNbusXobms7
 video_playlist_url2: https://www.youtube.com/playlist?list=PLLHwVz4euyqhs6m5Ax3M3L9GMtOofH6KL
 
-category: Systems & Programming  
+category: Systems & Programming
+published: false
+
 ---  
   
 Add cse225 notes as bonus at the end after cse100 notes!

@@ -12,6 +12,8 @@ books:
 video_playlist_url1: https://www.youtube.com/playlist?list=PLOQjlWvnI0fY1BCDxdiUSwkRHjnNI73G6
 video_playlist_url2: https://www.youtube.com/playlist?list=PLOQjlWvnI0fZGffr1_MqCoaC5nUVtQIWz
 category: Theoretical Computer Science  
+published: false
+
 ---  
   
 {% if page.books %}

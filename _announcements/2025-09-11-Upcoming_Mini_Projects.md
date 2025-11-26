@@ -3,6 +3,8 @@ title: "Upcoming Mini Projects: Tic-Tac-Toe & Pac-Man"
 date: 2025-09-11  
 description: "Will work on two mini projects: Tic-Tac-Toe & Pac-Man AI"  
 layout: announcement
+published: false
+
 ---  
 
 I have decided that by July of next year, I will have finished two major personal projects: my own Chess engine and my own Clash Royale engine. But before I start working on these very ambitious projects, I shall start with something much more simple. 

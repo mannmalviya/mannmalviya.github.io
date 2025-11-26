@@ -5,6 +5,8 @@ description: Based on UCSC's CSE-120
 img: assets/img/risc5_arch.png  
 importance: 4  
 category: Systems & Programming  
+published: false
+
 ---  
   
 ![Under Construction]({{ 'assets/img/coming_soon.png' | relative_url }})
