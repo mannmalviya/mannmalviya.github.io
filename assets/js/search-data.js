@@ -65,21 +65,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/announcements/";
               },
-            },{id: "books-the-boy-at-the-top-of-the-mountain",
-          title: 'The Boy At The Top Of The Mountain',
+            },{id: "books-zero-to-one-notes-on-startups-or-how-to-build-the-future",
+          title: 'Zero to One: Notes on Startups, or How to Build the Future',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/build_a_llm/";
-            },},{id: "books-the-boy-at-the-top-of-the-mountain",
-          title: 'The Boy At The Top Of The Mountain',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_boy_at_the_top_of_the_mountain/";
-            },},{id: "books-the-order-of-time",
-          title: 'The Order of Time',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_order_of_time/";
+              window.location.href = "/books/Zero_To_One/";
             },},{id: "projects-rag-chat-bot",
           title: 'RAG Chat Bot',
           description: "Coming Soon",
