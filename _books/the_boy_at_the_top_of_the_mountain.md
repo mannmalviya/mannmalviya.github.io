@@ -15,6 +15,8 @@ stars: 4
 goodreads_review: 
 status: Finished
 book_type: Non-Technical Reads  # Technical Reads, Textbooks
+published: false
+
 ---
 
 
