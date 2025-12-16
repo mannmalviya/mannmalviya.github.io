@@ -64,6 +64,12 @@ instagram:
   title: Instagram
   url: https://www.instagram.com/mann_malviya_/
 
+Medium:
+  logo: assets/img/medium-dark.png # can be png, svg, jpg
+  logo_dark: assets/img/medium.png
+  title: Medium
+  url: https://medium.com/@mmalviya_82017
+
 Github:
   logo: assets/img/github-dark.png # can be png, svg, jpg
   logo_dark: assets/img/github.png
