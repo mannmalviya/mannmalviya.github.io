@@ -65,7 +65,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/announcements/";
               },
-            },{id: "books-zero-to-one-notes-on-startups-or-how-to-build-the-future",
+            },{id: "books-hackers-amp-painters",
+          title: 'Hackers &amp;amp; Painters',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Hackers_and_Painters/";
+            },},{id: "books-zero-to-one-notes-on-startups-or-how-to-build-the-future",
           title: 'Zero to One: Notes on Startups, or How to Build the Future',
           description: "",
           section: "Books",handler: () => {
@@ -95,6 +100,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.instagram.com/mann_malviya_/", "_blank");
+        },
+      },{
+        id: 'social-Medium',
+        title: 'Medium',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://medium.com/@mmalviya_82017", "_blank");
         },
       },{
         id: 'social-Github',
