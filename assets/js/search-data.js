@@ -75,6 +75,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/Zero_To_One/";
+            },},{id: "books-build-a-large-language-model-from-scratch",
+          title: 'Build a Large Language Model (From Scratch)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/build_a_llm/";
+            },},{id: "books-neuro-discipline",
+          title: 'Neuro-Discipline',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/neurodiscipline/";
+            },},{id: "books-speech-and-language-processing",
+          title: 'Speech and Language Processing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/speech_and_language_processing/";
             },},{id: "projects-rag-chat-bot",
           title: 'RAG Chat Bot',
           description: "Coming Soon",
