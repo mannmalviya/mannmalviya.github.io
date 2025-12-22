@@ -25,61 +25,117 @@
       "startDate": "2025-06-16",
       "endDate": "2025-09-15",
       "summary": "",
-      "highlights": [""]
+      "highlights": ["Developed a production ready Retrieval-Augmented Generation (RAG) chatbot using local open-source models to provide intelligent and contextual responses based on the company’s internal documents and code base.", "Conducted testing and fine-tuning to ensure high accuracy and alignment with company knowledge, resulting in a scalable and user-friendly chatbot solution."]
     }
   ],
   "education": [
     {
       "institution": "University of California Santa Cruz",
       "location": "Santa Cruz, California",
-      "url": "https://www.uzh.ch/",
+      "url": "https://engineering.ucsc.edu/",
       "area": "Computer Science b.s.",
       "studyType": "Undergraduate",
       "startDate": "2022",
       "endDate": "2026",
       "score": "10",
-      "courses": [""]
+      "courses": ["CSE244B: Machine Learning for Natural Language Processing", "CSE142: Machine Learning", "CSE140: Artificial Intelligence", "STAT131: Introduction to Probability Theory"]
     }
   ],
   "awards": [
     {
       "title": "Dean's Honors",
-      "date": "1921-11-01",
+      "date": "Spring 2023",
       "awarder": "",
-      "url": "",
+      "url": "https://catalog.ucsc.edu/en/current/general-catalog/undergraduate-information/undergraduate-academic-program/evaluating-academic-performance/undergraduate-honors",
       "summary": ""
     }
   ],
   "certificates": [
     {
-      "name": "Microsoft Github Foundation Certification",
-      "date": "2018-01-01",
-      "issuer": "Github Certifications",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
     },
     {
-      "name": "LangChain & Vector Databases in Production",
-      "date": "2018-01-01",
-      "issuer": "Active Loop",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": "",
+      "icon": ""
     }
   ],
   "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
+{
+  "name": "Programming Languages",
+  "level": "Advanced",
+  "icon": "fa-solid fa-code",
+  "keywords": [
+    "Python",
+    "C",
+    "C++",
+    "Shell Scripting"
+  ]
+},
+{
+  "name": "Systems & Low-Level Computing",
+  "level": "Intermediate",
+  "icon": "fa-solid fa-microchip",
+  "keywords": [
+    "Operating Systems",
+    "Computer Architecture",
+    "Memory Management",
+    "Concurrency & Synchronization"
+  ]
+},
+{
+  "name": "Machine Learning Foundations",
+  "level": "Intermediate",
+  "icon": "fa-solid fa-brain",
+  "keywords": [
+    "Keras",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "NumPy",
+    "Pandas"
+  ]
+},
+{
+  "name": "AI & LLM Systems",
+  "level": "Exploratory",
+  "icon": "fa-solid fa-network-wired",
+  "keywords": [
+    "Retrieval-Augmented Generation (RAG)",
+    "LangChain",
+    "LlamaIndex",
+    "Vector Databases (FAISS, Pinecone, Chroma)"
+  ]
+},
+{
+  "name": "Backend & Infrastructure",
+  "level": "Intermediate",
+  "icon": "fa-solid fa-server",
+  "keywords": [
+    "FastAPI",
+    "REST APIs",
+    "Supabase"
+  ]
+},
+{
+  "name": "Tools & Workflow",
+  "level": "Advanced",
+  "icon": "fa-solid fa-toolbox",
+  "keywords": [
+    "Git",
+    "GitHub",
+    "Linux",
+    "LaTeX",
+    "Overleaf"
+  ]
+}
+
   ],
   "languages": [
     {
@@ -96,44 +152,57 @@
   "interests": [
     {
       "name": "Theoretical Computer Science",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-infinity",
       "keywords": [
         "Algorithm Analysis",
         "Computational & Complexity Theory"
       ]
     },
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Machine Learning & AI Systems",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning Fundamentals",
+        "Large Language Models (LLMs)",
+        "Retrieval-Augmented Generation (RAG)",
+        "AI Agent Workflows"
       ]      
     },
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Embedded & Systems Programming",
+      "icon": "fa-solid fa-microchip",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C Programming",
+        "Operating Systems",
+        "Computer Architecture",
+        "Concurrency & Synchronization"
+
       ]      
     }
   ],
   "projects": [
     {
+      "name": "CodeCompass",
+      "summary": "Built CodeCompass, a GraphRAG-based retrieval system with backend APIs for document ingestion, indexing, and query orchestration.",
+      "highlights": [  "Designed and implemented a GraphRAG-based retrieval pipeline",
+  "Built backend APIs for document ingestion, indexing, and query orchestration",
+  "Integrated vector search with structured graph-based retrieval",
+  "Focused on modular, scalable backend architecture"
+],
+      "startDate": "2025-10-6",
+      "endDate": "2025-12-01",
+      "url": "https://example.com"
+    },
+    {
       "name": "RAG Chat Bot",
-      "summary": "",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
+      "summary": "Developed an AI-powered chatbot for internal company knowledge retrieval as part of my internship.",
+      "highlights": [
+        "Implemented a Retrieval-Augmented Generation (RAG) pipeline using Byaldi and optimized retrieval with ColBERT and query rewriting",
+        "Built full-stack backend and frontend with Supabase, integrating authentication and multi-user access",
+        "Enabled employees to efficiently query documentation and Bugzilla tickets through the chatbot interface"
+      ],
+      "startDate": "2025-08-01",
+      "endDate": "2025-09-25",
       "url": "https://example.com"
     }
   ]
