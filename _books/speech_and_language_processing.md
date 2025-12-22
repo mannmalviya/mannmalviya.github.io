@@ -6,7 +6,7 @@ cover: assets/img/book_covers/speech_and_language_processing.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780857534521 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: 
-tags: ML, NLP
+tags: ML NLP
 buy_link: https://web.stanford.edu/~jurafsky/slp3/
 started: 2025-12-22
 finished: "?"
