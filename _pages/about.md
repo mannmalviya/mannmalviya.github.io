@@ -3,7 +3,7 @@ layout: about
 title: Home
 
 permalink: /
-subtitle: <a href='#'</a>
+subtitle: CS Student • ML Enthusiast • Builder
 
 profile:
   align: right
@@ -21,9 +21,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Mann 👋, a undergrad at UC Santa Cruz studying Computer Science.
+Hi, I'm Mann 👋, an undergrad at UC Santa Cruz studying Computer Science.
 
-🚧 Site Under Construction
+I'm interested in **Machine Learning**, **Natural Language Processing**, and **AI systems**. 
+Currently working on RAG systems and neural network applications.
 
+This site is where I share my projects, thoughts on books I'm reading, occasional blog posts and explorations in AI and computer science.
 
-Thanks for visiting! This website is a work in progress. Check back soon for updates on my projects, blog posts, and more.
+**Interests:** Machine Learning • NLP • Information Retrieval • Game AI
+
+## Currently
+- 🔬 Building RAG-based chat systems
+- ♟️ Developing a hybrid neural network chess engine
+- 📚 Reading [Speech and Language Processing By Jurafsky & Martin](https://mannmalviya.github.io/books/speech_and_language_processing/)
