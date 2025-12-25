@@ -49,7 +49,7 @@ layout: default
 
 <div class="table-responsive">  
   <table class="table table-sm table-borderless">  
-    {% for announcement in site.announcements limit: 5 %}  
+    {% for announcement in site.announcements limit: 4 %}  
       <tr>  
         <th scope="row" style="width: 20%">
           {{ announcement.date | date: '%b %d, %Y' }}
