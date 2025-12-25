@@ -65,7 +65,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/announcements/";
               },
-            },{id: "books-hackers-amp-painters",
+            },{id: "books-seven-and-a-half-lessons-about-the-brain",
+          title: 'Seven and a Half Lessons About the Brain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/7_half_lessons_brain/";
+            },},{id: "books-hackers-amp-painters",
           title: 'Hackers &amp;amp; Painters',
           description: "",
           section: "Books",handler: () => {
@@ -80,11 +85,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/build_a_llm/";
+            },},{id: "books-deep-learning",
+          title: 'Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep_learning/";
+            },},{id: "books-neural-networks-and-deep-learning",
+          title: 'Neural Networks and Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep_learning_michael_nielsen/";
+            },},{id: "books-how-to-win-at-chess-the-ultimate-guide-for-beginners-and-beyond",
+          title: 'How to Win at Chess: The Ultimate Guide for Beginners and Beyond',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how_to_win_at_chess/";
             },},{id: "books-neuro-discipline",
           title: 'Neuro-Discipline',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/neurodiscipline/";
+            },},{id: "books-probability-and-statistics-4th-ed",
+          title: 'Probability and Statistics (4th Ed.)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/prob_and_statistics/";
             },},{id: "books-speech-and-language-processing",
           title: 'Speech and Language Processing',
           description: "",
