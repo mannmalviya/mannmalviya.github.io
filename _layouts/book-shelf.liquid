@@ -51,7 +51,7 @@ layout: page
       <a href="{{ year_group.name | prepend: '/books/' | relative_url }}">{{ year_group.name }}</a>
     </h1>
 
-    {% assign categories = "Textbooks,Technical Reads,Non-Technical Reads" | split: "," %}
+    {% assign categories = "Textbooks,Technical Reads,Non-Technical Reads,Fun/Other Reads" | split: "," %}
     {% for category in categories %}
       {% assign books_in_category = year_group.items | where: "book_type", category %}
       {% if books_in_category.size > 0 %}

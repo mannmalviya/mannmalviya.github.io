@@ -3,7 +3,7 @@ layout: about
 title: Home
 
 permalink: /
-subtitle: CS Student • ML Enthusiast • Builder
+subtitle: CS @ UC Santa Cruz • Exploring ML • Building Products
 
 profile:
   align: right
@@ -28,7 +28,7 @@ Currently working on RAG systems and neural network applications.
 
 This site is where I share my projects, thoughts on books I'm reading, occasional blog posts and explorations in AI and computer science.
 
-**Interests:** Machine Learning • NLP • Information Retrieval • Game AI
+**Interests:** Machine Learning • Deep Learning • AI Agent Systems
 
 ## Currently
 - 🔬 Building RAG-based chat systems
