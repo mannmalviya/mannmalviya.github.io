@@ -12,7 +12,7 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
+<div class="post book-review">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.author or page.released %}
@@ -100,6 +100,43 @@ layout: default
     </p>
     <hr>
   </header>
+
+  {% if page.toc %}
+  <div class="book-toc">
+    <div class="toc-title">Contents</div>
+    {% for item in page.toc %}
+      <div class="toc-section">
+        {% if item.link %}
+          <a href="{{ item.link }}">{{ item.name }}</a>
+        {% else %}
+          {{ item.name }}
+        {% endif %}
+      </div>
+      {% if item.subsections %}
+        {% for subsection in item.subsections %}
+          <div class="toc-subsection">
+            {% if subsection.link %}
+              <a href="{{ subsection.link }}">{{ subsection.name }}</a>
+            {% else %}
+              {{ subsection.name }}
+            {% endif %}
+          </div>
+          {% if subsection.subsections %}
+            {% for subsubsection in subsection.subsections %}
+              <div class="toc-subsubsection">
+                {% if subsubsection.link %}
+                  <a href="{{ subsubsection.link }}">{{ subsubsection.name }}</a>
+                {% else %}
+                  {{ subsubsection.name }}
+                {% endif %}
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
 
   <article>
     {% if content == '' %}
@@ -228,6 +265,7 @@ layout: default
                   }
 
           .mobile-break { display: none; }
+      }
 
   /* =Blockquote
   -------------------------------------------------------------- */
