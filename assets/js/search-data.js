@@ -95,6 +95,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/deep_learning_michael_nielsen/";
+            },},{id: "books-how-to-reassess-your-chess-chess-mastery-through-chess-imbalances",
+          title: 'How to Reassess Your Chess: Chess Mastery Through Chess Imbalances',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how_to_reassess_your_chess/";
             },},{id: "books-how-to-win-at-chess-the-ultimate-guide-for-beginners-and-beyond",
           title: 'How to Win at Chess: The Ultimate Guide for Beginners and Beyond',
           description: "",
