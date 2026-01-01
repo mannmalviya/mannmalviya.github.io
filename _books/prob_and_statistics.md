@@ -8,7 +8,7 @@ isbn: 9780857534521 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: 
 tags: ML Math
 buy_link: https://www.amazon.com/Probability-Statistics-4th-Morris-DeGroot/dp/0321500466
-started: "?"
+started: 2026-01-01
 finished: "?"
 released: 2012
 stars: "?"

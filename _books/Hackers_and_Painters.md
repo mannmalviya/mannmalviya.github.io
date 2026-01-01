@@ -8,7 +8,7 @@ isbn: 9780857534521 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: 
 tags: startup
 buy_link: https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554
-started: "?"
+started: 2026-01-01
 finished: "?"
 released: 2014
 stars: "?"#5

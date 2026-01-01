@@ -8,7 +8,7 @@ isbn: 9780857534521 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: 
 tags: ML
 buy_link: https://www.manning.com/books/build-a-large-language-model-from-scratch
-started: "?"
+started: 2026-01-01
 finished: "?"
 released: 2024
 stars: "?"

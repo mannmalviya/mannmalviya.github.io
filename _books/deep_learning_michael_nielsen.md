@@ -8,7 +8,7 @@ isbn: 9780857534521 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: 
 tags: ML
 buy_link: http://neuralnetworksanddeeplearning.com/
-started: "?"
+started: 2026-01-01
 finished: "?"
 released: 2019
 stars: "?"

@@ -45,13 +45,13 @@ layout: page
 
 
 {% if page.collection and page.collection.size > 0 %}
-  {% assign grouped_by_year = collection | group_by_exp: "item", "item.date | date: '%Y'" %}
+  {% assign grouped_by_year = collection | group_by_exp: "item", "item.started | date: '%Y'" %}
   {% for year_group in grouped_by_year reversed %}
     <h1 id="y{{ year_group.name }}">
       <a href="{{ year_group.name | prepend: '/books/' | relative_url }}">{{ year_group.name }}</a>
     </h1>
 
-    {% assign categories = "Textbooks,Technical Reads,Non-Technical Reads,Fun/Other Reads" | split: "," %}
+    {% assign categories = "Textbooks,Technical Reads,Non-Technical Reads,Fun/Other Reads,Chess Books" | split: "," %}
     {% for category in categories %}
       {% assign books_in_category = year_group.items | where: "book_type", category %}
       {% if books_in_category.size > 0 %}
@@ -85,5 +85,9 @@ layout: page
         </ul>
       {% endif %}
     {% endfor %}
+
+    {% unless forloop.last %}
+      <hr style="border: 0; height: 2px; background: #ccc; margin: 40px 0;">
+    {% endunless %}
   {% endfor %}
 {% endif %}
