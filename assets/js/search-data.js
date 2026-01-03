@@ -105,6 +105,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/how_to_win_at_chess/";
+            },},{id: "books-probability-for-the-enthusiastic-beginner",
+          title: 'Probability: For the Enthusiastic Beginner',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/morins_probability/";
             },},{id: "books-neuro-discipline",
           title: 'Neuro-Discipline',
           description: "",
