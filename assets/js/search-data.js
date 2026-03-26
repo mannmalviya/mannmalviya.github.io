@@ -65,7 +65,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/announcements/";
               },
-            },{id: "books-seven-and-a-half-lessons-about-the-brain",
+            },{id: "announcements-wrapped-up-winter-quarter-at-ucsc",
+          title: 'Wrapped up Winter Quarter at UCSC!',
+          description: "",
+          section: "Announcements",handler: () => {
+              window.location.href = "/announcements/2026-03-26-winter-quarter-finished/";
+            },},{id: "books-seven-and-a-half-lessons-about-the-brain",
           title: 'Seven and a Half Lessons About the Brain',
           description: "",
           section: "Books",handler: () => {
@@ -130,6 +135,31 @@ ninja.data = [{
           description: "Coming Soon",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-chess-engine",
+          title: 'Chess Engine',
+          description: "Coming Soon",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/chess_engine/";
+            },},{id: "projects-codecompass",
+          title: 'CodeCompass',
+          description: "Coming Soon",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/codecompass/";
+            },},{id: "projects-http-server-amp-proxy",
+          title: 'HTTP Server &amp;amp; Proxy',
+          description: "Coming Soon",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/http_server_proxy/";
+            },},{id: "projects-prompt-manager",
+          title: 'Prompt Manager',
+          description: "Coming Soon",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/promptmanager/";
+            },},{id: "projects-rag-chat-bot",
+          title: 'RAG Chat Bot',
+          description: "Coming Soon",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rag_chatbot/";
             },},{
         id: 'social-gmail',
         title: 'Gmail',
