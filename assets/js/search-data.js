@@ -65,7 +65,28 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/announcements/";
               },
-            },{id: "announcements-wrapped-up-winter-quarter-at-ucsc",
+            },{id: "post-21-things-i-39-ve",
+        
+          title: '21 things I&#39;ve <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "A short description",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/", "_blank");
+          
+        },
+      },{id: "announcements-finished-my-internship-chelsio-communications",
+          title: 'Finished my internship @ Chelsio Communications',
+          description: "10 weeks building a production RAG chatbot, what I learned, what broke, and what finally worked.",
+          section: "Announcements",handler: () => {
+              window.location.href = "/announcements/2025-09-12-finished-chelsio-internship/";
+            },},{id: "announcements-wrapped-up-fall-quarter-at-ucsc",
+          title: 'Wrapped up Fall Quarter at UCSC!',
+          description: "Finished Fall Quarter @ UCSC. Learnt a lot of ML &amp; DL, and started building CodeCompass.",
+          section: "Announcements",handler: () => {
+              window.location.href = "/announcements/2025-12-17-fall-2025-quarter-finished/";
+            },},{id: "announcements-wrapped-up-winter-quarter-at-ucsc",
           title: 'Wrapped up Winter Quarter at UCSC!',
           description: "",
           section: "Announcements",handler: () => {
