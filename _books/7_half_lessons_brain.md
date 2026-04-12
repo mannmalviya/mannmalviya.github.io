@@ -18,5 +18,5 @@ book_type: Non-Technical Reads  # Technical Reads, Textbooks
 published: True
 
 ---
-## Thoughts before Starting
 
+## Thoughts before Starting

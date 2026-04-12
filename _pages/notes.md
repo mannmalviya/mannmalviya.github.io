@@ -1,15 +1,15 @@
----  
-layout: page  
-title: Notes  
-permalink: /Notes/  
-description: A growing collection of my academic notes and study materials.  
-nav: true  
-nav_order: 2  
-display_categories: [Theoretical Computer Science, Systems & Programming,Math, Physics]  
-horizontal: false  
----  
-  
-<!-- pages/notes.md -->  
+---
+layout: page
+title: Notes
+permalink: /Notes/
+description: A growing collection of my academic notes and study materials.
+nav: true
+nav_order: 2
+display_categories: [Theoretical Computer Science, Systems & Programming, Math, Physics]
+horizontal: false
+---
+
+<!-- pages/notes.md -->
 <div class="projects">  
 {% if site.enable_project_categories and page.display_categories %}  
   <!-- Display categorized notes -->  
@@ -63,4 +63,3 @@ horizontal: false
   {% endif %}  
 {% endif %}  
 </div>
-

@@ -40,30 +40,28 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-<!-- Announcements -->
-<h3>
-  <a href="{{ '/announcements/' | relative_url }}" style="color: inherit">
-    Recent Updates 📢
-  </a>
-</h3>
+    <!-- Announcements -->
+    <h3>
+      <a href="{{ '/announcements/' | relative_url }}" style="color: inherit"> Recent Updates 📢 </a>
+    </h3>
 
-<div class="table-responsive">  
-  <table class="table table-sm table-borderless">  
-    {% for announcement in site.announcements limit: 4 %}  
-      <tr>  
-        <th scope="row" style="width: 20%">
-          {{ announcement.date | date: '%b %d, %Y' }}
-        </th>  
-        <td>  
-          <a class="news-title" href="{{ announcement.url | relative_url }}">
-            {{ announcement.title }}
-          </a>  
-        </td>  
-      </tr>  
-    {% endfor %}  
-  </table>  
-</div>
-
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% assign sorted_announcements = site.announcements | reverse %}
+        {% for announcement in sorted_announcements limit: 4 %}
+          <tr>
+            <th scope="row" style="width: 20%">
+              {{ announcement.date | date: '%b %d, %Y' }}
+            </th>
+            <td>
+              <a class="news-title" href="{{ announcement.url | relative_url }}">
+                {{ announcement.title }}
+              </a>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
@@ -74,15 +72,15 @@ layout: default
     {% endif %}
 
     <!-- Social -->
-  {% comment %}
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+    {% comment %}
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-  {% endcomment %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      {% endif %}
+    {% endcomment %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
@@ -90,16 +88,17 @@ layout: default
   </article>
 </div>
 
-
-<!-- GitHub Contribution Graph with Theme Support -->  
-<div class="github-contributions text-center mb-4">  
-  <h3>GitHub Contributions</h3>  
-  <img   
-    src="https://ghchart.rshah.org/mannmalviya"   
-    alt="GitHub Contribution Graph"   
-    class="only-light w-100">  
-  <img     
-    src="https://ghchart.rshah.org/mannmalviya"     
-    alt="GitHub Contribution Graph"     
-    class="only-dark w-100">
+<!-- GitHub Contribution Graph with Theme Support -->
+<div class="github-contributions text-center mb-4">
+  <h3>GitHub Contributions</h3>
+  <img
+    src="https://ghchart.rshah.org/mannmalviya"
+    alt="GitHub Contribution Graph"
+    class="only-light w-100"
+  >
+  <img
+    src="https://ghchart.rshah.org/mannmalviya"
+    alt="GitHub Contribution Graph"
+    class="only-dark w-100"
+  >
 </div>

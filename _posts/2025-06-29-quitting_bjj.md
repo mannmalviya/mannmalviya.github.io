@@ -1,13 +1,13 @@
----  
-layout: post   
-title: Why I quit Jiu-Jitsu and Chess  
-date: 2025-01-15 10:00:00  
-description: Quitting Jiu-Jitsu & Chess  
-tags: mental_models   
-categories: blog  
+---
+layout: post
+title: Why I quit Jiu-Jitsu and Chess
+date: 2025-01-15 10:00:00
+description: Quitting Jiu-Jitsu & Chess
+tags: mental_models
+categories: blog
 published: false
----  
-  
+---
+
 Your blog content goes here...
 
 Why I quit Jiu-Jitsu.

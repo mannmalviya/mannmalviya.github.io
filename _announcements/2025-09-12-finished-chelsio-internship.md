@@ -20,13 +20,13 @@ The hardest part turned out to be a problem I didn't anticipate: **document pars
 
 ## Stack
 
-| Layer | Tech |
-|---|---|
-| Retrieval | ColPali (vision RAG) |
-| Vector DB | Local, on-prem, Chroma DB |
-| Inference | RTX 5090 local |
-| Backend | REST API + RAG pipeline |
-| Containers | Docker |
+| Layer      | Tech                      |
+| ---------- | ------------------------- |
+| Retrieval  | ColPali (vision RAG)      |
+| Vector DB  | Local, on-prem, Chroma DB |
+| Inference  | RTX 5090 local            |
+| Backend    | REST API + RAG pipeline   |
+| Containers | Docker                    |
 
 ---
 
@@ -34,11 +34,11 @@ The hardest part turned out to be a problem I didn't anticipate: **document pars
 
 Once the RAG pipeline was working, I had to ship it as an actual usable application, which meant building a full-stack product. The backend was entirely mine: API server, database setup, RAG orchestration. For the frontend, I evaluated a few off-the-shelf chat UIs rather than building one from scratch.
 
-| UI | Verdict |
-|---|---|
-| **[Gradio](https://github.com/gradio-app/gradio)** | Fine for quick PoCs, not production-ready in terms of polish. |
-| **[ChatbotUI](https://github.com/mckaywrigley/chatbot-ui)** | Decent but had auth and user management friction. |
-| **[Open WebUI](https://github.com/open-webui/open-webui)** ✓ | Clean, extensible, easy to wire up to custom backends. |
+| UI                                                           | Verdict                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------- |
+| **[Gradio](https://github.com/gradio-app/gradio)**           | Fine for quick PoCs, not production-ready in terms of polish. |
+| **[ChatbotUI](https://github.com/mckaywrigley/chatbot-ui)**  | Decent but had auth and user management friction.             |
+| **[Open WebUI](https://github.com/open-webui/open-webui)** ✓ | Clean, extensible, easy to wire up to custom backends.        |
 
 Open WebUI connected cleanly to the API endpoints exposed by my backend and gave the tool a professional, usable interface without me having to build a chat UI from scratch. The backend was significantly more complex than the frontend integration, and that's where I spent most of my time.
 

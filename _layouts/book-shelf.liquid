@@ -1,12 +1,11 @@
 ---
 layout: page
 ---
-
 <!-- Your regular page content -->
 {{ content }}
 
 <!-- Top-level tag display -->
-{% assign all_tags = "" | split: "," %}
+{% assign all_tags = '' | split: ',' %}
 
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
@@ -19,41 +18,39 @@ layout: page
     {% assign all_tags = all_tags | uniq %}
 
     {% if all_tags.size > 0 %}
-    <div style="text-align:center; margin: 30px 0;">
-      <hr style="border: 1px solid #ccc; margin: 0 0 10px 0;">
-      <p class="post-tags" style="font-size:1.2em; margin: 0; line-height: 1.2;">
-        <span style="color: grey; margin-right: 5px;"><i class="fa-solid fa-tags fa-sm"></i></span>
-        {% for tag in all_tags %}
-          <span style="color: grey;"><i class="fa-solid fa-hashtag fa-sm"></i></span>
-          <a href="{{ tag | slugify | prepend: '/books/tag/' | relative_url }}" 
-             style="color:  #3c789c; text-decoration: none; margin: 0 4px;">
-            {{ tag }}
-          </a>
-          {% unless forloop.last %}
-            <span style="color: grey;">&middot;</span>
-          {% endunless %}
-        {% endfor %}
-      </p>
-      <hr style="border: 1px solid #ccc; margin: 10px 0 0 0;">
-    </div>
-
+      <div style="text-align:center; margin: 30px 0;">
+        <hr style="border: 1px solid #ccc; margin: 0 0 10px 0;">
+        <p class="post-tags" style="font-size:1.2em; margin: 0; line-height: 1.2;">
+          <span style="color: grey; margin-right: 5px;"><i class="fa-solid fa-tags fa-sm"></i></span>
+          {% for tag in all_tags %}
+            <span style="color: grey;"><i class="fa-solid fa-hashtag fa-sm"></i></span>
+            <a
+              href="{{ tag | slugify | prepend: '/books/tag/' | relative_url }}"
+              style="color:  #3c789c; text-decoration: none; margin: 0 4px;"
+            >
+              {{ tag }}
+            </a>
+            {% unless forloop.last %}
+              <span style="color: grey;">&middot;</span>
+            {% endunless %}
+          {% endfor %}
+        </p>
+        <hr style="border: 1px solid #ccc; margin: 10px 0 0 0;">
+      </div>
     {% endif %}
   {% endif %}
 {% endif %}
 
-
-
-
 {% if page.collection and page.collection.size > 0 %}
-  {% assign grouped_by_year = collection | group_by_exp: "item", "item.started | date: '%Y'" %}
+  {% assign grouped_by_year = collection | group_by_exp: 'item', "item.started | date: '%Y'" %}
   {% for year_group in grouped_by_year reversed %}
     <h1 id="y{{ year_group.name }}">
       <a href="{{ year_group.name | prepend: '/books/' | relative_url }}">{{ year_group.name }}</a>
     </h1>
 
-    {% assign categories = "Textbooks,Technical Reads,Non-Technical Reads,Fun/Other Reads,Chess Books" | split: "," %}
+    {% assign categories = 'Textbooks,Technical Reads,Non-Technical Reads,Fun/Other Reads,Chess Books' | split: ',' %}
     {% for category in categories %}
-      {% assign books_in_category = year_group.items | where: "book_type", category %}
+      {% assign books_in_category = year_group.items | where: 'book_type', category %}
       {% if books_in_category.size > 0 %}
         <h2>{{ category }}</h2>
         <ul>
@@ -63,9 +60,17 @@ layout: page
                 {% if item.cover %}
                   <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
                 {% elsif item.olid %}
-                  <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+                  <img
+                    alt="{{ item.title }} cover"
+                    src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false"
+                    style="height:200px"
+                  >
                 {% elsif item.isbn %}
-                  <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+                  <img
+                    alt="{{ item.title }} cover"
+                    src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false"
+                    style="height:200px"
+                  >
                 {% endif %}
 
                 {% if item.status %}

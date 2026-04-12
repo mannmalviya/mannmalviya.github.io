@@ -1,13 +1,11 @@
----  
-layout: page  
-title: Artificial Intelligence  
-description: Based on UCSC's CSE-140     
+---
+layout: page
+title: Artificial Intelligence
+description: Based on UCSC's CSE-140
 img: assets/img/coming_soon.png
-importance: 4  
-category: Theoretical Computer Science  
+importance: 4
+category: Theoretical Computer Science
 published: false
+---
 
----  
-  
 ![Under Construction]({{ 'assets/img/coming_soon.png' | relative_url }})
-

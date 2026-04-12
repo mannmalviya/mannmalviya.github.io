@@ -2,7 +2,7 @@
 layout: page
 title: RAG Chat Bot
 description: Coming Soon
-img: 
+img:
 importance: 1
 category: work
 related_publications: true

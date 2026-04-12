@@ -1,12 +1,12 @@
----  
-layout: page  
-title: Announcements  
-permalink: /announcements/  
-description: All my announcements and updates  
-nav: false  
----  
-  
-<!-- Display all announcements -->  
+---
+layout: page
+title: Announcements
+permalink: /announcements/
+description: All my announcements and updates
+nav: false
+---
+
+<!-- Display all announcements -->
 <div class="announcements-archive">  
   {% assign sorted_announcements = site.announcements | sort: 'date' | reverse %}  
   {% for announcement in sorted_announcements %}  

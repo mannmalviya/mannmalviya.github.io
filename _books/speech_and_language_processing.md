@@ -42,6 +42,7 @@ This textbook was recommended by my Machine Learning professor, an expert in NLP
 Will fill this section in once I am done :p
 
 ---
+
 ## Reading Notes & Highlights
 
 #### Volume I: Large Language Models(LLMs)
@@ -49,10 +50,12 @@ Will fill this section in once I am done :p
 The first part of this book introduces fundamental algorithmic & linguistic tools to make a neural large language model. Begins with **tokenization** & **preprocessing**, including **Unicode** and then introduce basic language modeling ideas using **n-gram language models**
 
 **Core Algorithms (LLM components):**
+
 - Embeddings
 - Feedforward networks
 
 **Topics Covered:**
+
 - Principles of large language modeling (encoder, decoders, pretraining)
 - Transformer Architecture
 - Masked language model
@@ -66,6 +69,4 @@ The first part of this book introduces fundamental algorithmic & linguistic tool
 
 The book currently doesn't have an introductory chapter.
 
-
 #### Chapter 2: Words & Tokens
-

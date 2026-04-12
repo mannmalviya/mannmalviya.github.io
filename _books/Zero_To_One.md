@@ -18,15 +18,15 @@ book_type: Non-Technical Reads  # Technical Reads, Textbooks
 published: True
 
 ---
+
 ## Thoughts before Starting
 
-I’ve wanted to read *Zero to One* for a really, really long time.
+I’ve wanted to read _Zero to One_ for a really, really long time.
 
-My dad had a copy of this book back when I was in early high school. I remember picking it up a few times, trying to read it, but never making it past the first few chapters. 
+My dad had a copy of this book back when I was in early high school. I remember picking it up a few times, trying to read it, but never making it past the first few chapters.
 
 Now, years later, it feels like the right moment.
 
 Recently I've been looking into applying to Y-Combinator and what it takes to get in, feeling rather inspired, motivated and excited by the thought of applying and getting in.
 
 Here’s to finally starting a book that’s been sitting in the back of my mind for years.
-

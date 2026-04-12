@@ -9,15 +9,18 @@
     "url": "https://www.linkedin.com/in/mann-malviya-610765274/"
   },
   "work": [
-    {      
+    {
       "name": "Baskin School of Engineering",
       "position": "Group Tutor",
       "url": "https://engineering.ucsc.edu/",
       "startDate": "2024-09-01",
       "endDate": "2024-12-01",
       "summary": "Group Tutor for CSE 12(Computer Systems and Assembly Language and Lab)",
-      "highlights": ["Tutored digital logic/design, number systems, boolean algebra, RISC-V assembly & architecture", "Assisted students with lab assignments, helping them troubleshoot issues, understand key concepts & ideas, and develop problem-solving skills in digital hardware and assembly language."]}
-    ,
+      "highlights": [
+        "Tutored digital logic/design, number systems, boolean algebra, RISC-V assembly & architecture",
+        "Assisted students with lab assignments, helping them troubleshoot issues, understand key concepts & ideas, and develop problem-solving skills in digital hardware and assembly language."
+      ]
+    },
     {
       "name": "Chelsio Communications",
       "position": "Software Engineering Intern",
@@ -25,7 +28,10 @@
       "startDate": "2025-06-16",
       "endDate": "2025-09-15",
       "summary": "",
-      "highlights": ["Developed a production ready Retrieval-Augmented Generation (RAG) chatbot using local open-source models to provide intelligent and contextual responses based on the company’s internal documents and code base.", "Conducted testing and fine-tuning to ensure high accuracy and alignment with company knowledge, resulting in a scalable and user-friendly chatbot solution."]
+      "highlights": [
+        "Developed a production ready Retrieval-Augmented Generation (RAG) chatbot using local open-source models to provide intelligent and contextual responses based on the company’s internal documents and code base.",
+        "Conducted testing and fine-tuning to ensure high accuracy and alignment with company knowledge, resulting in a scalable and user-friendly chatbot solution."
+      ]
     }
   ],
   "education": [
@@ -38,7 +44,12 @@
       "startDate": "2022",
       "endDate": "2026",
       "score": "10",
-      "courses": ["CSE244B: Machine Learning for Natural Language Processing", "CSE142: Machine Learning", "CSE140: Artificial Intelligence", "STAT131: Introduction to Probability Theory"]
+      "courses": [
+        "CSE244B: Machine Learning for Natural Language Processing",
+        "CSE142: Machine Learning",
+        "CSE140: Artificial Intelligence",
+        "STAT131: Introduction to Probability Theory"
+      ]
     }
   ],
   "awards": [
@@ -67,76 +78,42 @@
     }
   ],
   "skills": [
-{
-  "name": "Programming Languages",
-  "level": "Advanced",
-  "icon": "fa-solid fa-code",
-  "keywords": [
-    "Python",
-    "C",
-    "C++",
-    "Shell Scripting"
-  ]
-},
-{
-  "name": "Systems & Low-Level Computing",
-  "level": "Intermediate",
-  "icon": "fa-solid fa-microchip",
-  "keywords": [
-    "Operating Systems",
-    "Computer Architecture",
-    "Memory Management",
-    "Concurrency & Synchronization"
-  ]
-},
-{
-  "name": "Machine Learning Foundations",
-  "level": "Intermediate",
-  "icon": "fa-solid fa-brain",
-  "keywords": [
-    "Keras",
-    "TensorFlow",
-    "PyTorch",
-    "Scikit-learn",
-    "NumPy",
-    "Pandas"
-  ]
-},
-{
-  "name": "AI & LLM Systems",
-  "level": "Exploratory",
-  "icon": "fa-solid fa-network-wired",
-  "keywords": [
-    "Retrieval-Augmented Generation (RAG)",
-    "LangChain",
-    "LlamaIndex",
-    "Vector Databases (FAISS, Pinecone, Chroma)"
-  ]
-},
-{
-  "name": "Backend & Infrastructure",
-  "level": "Intermediate",
-  "icon": "fa-solid fa-server",
-  "keywords": [
-    "FastAPI",
-    "REST APIs",
-    "Supabase"
-  ]
-},
-{
-  "name": "Tools & Workflow",
-  "level": "Advanced",
-  "icon": "fa-solid fa-toolbox",
-  "keywords": [
-    "Git",
-    "GitHub",
-    "CI/CD",
-    "Linux",
-    "LaTeX",
-    "Overleaf"
-  ]
-}
-
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C", "C++", "Shell Scripting"]
+    },
+    {
+      "name": "Systems & Low-Level Computing",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-microchip",
+      "keywords": ["Operating Systems", "Computer Architecture", "Memory Management", "Concurrency & Synchronization"]
+    },
+    {
+      "name": "Machine Learning Foundations",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["Keras", "TensorFlow", "PyTorch", "Scikit-learn", "NumPy", "Pandas"]
+    },
+    {
+      "name": "AI & LLM Systems",
+      "level": "Exploratory",
+      "icon": "fa-solid fa-network-wired",
+      "keywords": ["Retrieval-Augmented Generation (RAG)", "LangChain", "LlamaIndex", "Vector Databases (FAISS, Pinecone, Chroma)"]
+    },
+    {
+      "name": "Backend & Infrastructure",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-server",
+      "keywords": ["FastAPI", "REST APIs", "Supabase"]
+    },
+    {
+      "name": "Tools & Workflow",
+      "level": "Advanced",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": ["Git", "GitHub", "CI/CD", "Linux", "LaTeX", "Overleaf"]
+    }
   ],
   "languages": [
     {
@@ -154,42 +131,29 @@
     {
       "name": "Theoretical Computer Science",
       "icon": "fa-solid fa-infinity",
-      "keywords": [
-        "Algorithm Analysis",
-        "Computational & Complexity Theory"
-      ]
+      "keywords": ["Algorithm Analysis", "Computational & Complexity Theory"]
     },
     {
       "name": "Machine Learning & AI Systems",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Machine Learning Fundamentals",
-        "Large Language Models (LLMs)",
-        "Retrieval-Augmented Generation (RAG)",
-        "AI Agent Workflows"
-      ]      
+      "keywords": ["Machine Learning Fundamentals", "Large Language Models (LLMs)", "Retrieval-Augmented Generation (RAG)", "AI Agent Workflows"]
     },
     {
       "name": "Embedded & Systems Programming",
       "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "C Programming",
-        "Operating Systems",
-        "Computer Architecture",
-        "Concurrency & Synchronization"
-
-      ]      
+      "keywords": ["C Programming", "Operating Systems", "Computer Architecture", "Concurrency & Synchronization"]
     }
   ],
   "projects": [
     {
       "name": "CodeCompass",
       "summary": "Built CodeCompass, a GraphRAG-based retrieval system with backend APIs for document ingestion, indexing, and query orchestration.",
-      "highlights": [  "Designed and implemented a GraphRAG-based retrieval pipeline",
-  "Built backend APIs for document ingestion, indexing, and query orchestration",
-  "Integrated vector search with structured graph-based retrieval",
-  "Focused on modular, scalable backend architecture"
-],
+      "highlights": [
+        "Designed and implemented a GraphRAG-based retrieval pipeline",
+        "Built backend APIs for document ingestion, indexing, and query orchestration",
+        "Integrated vector search with structured graph-based retrieval",
+        "Focused on modular, scalable backend architecture"
+      ],
       "startDate": "2025-10-6",
       "endDate": "2025-12-01",
       "url": "https://example.com"

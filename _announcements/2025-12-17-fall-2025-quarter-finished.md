@@ -26,17 +26,17 @@ This class gives an introduction to various ML algorithms, ranging from a humble
 
 The ML models covered:
 
-* Linear Regression
-* Logistic Regression
-* Perceptrons
-* SVMs
-* Naïve Bayes Classifiers
-* K-NN
-* Decision Trees
-* K-means Clustering
-* Gaussian Mixture Models
-* Markov Models
-* Deep Neural Networks
+- Linear Regression
+- Logistic Regression
+- Perceptrons
+- SVMs
+- Naïve Bayes Classifiers
+- K-NN
+- Decision Trees
+- K-means Clustering
+- Gaussian Mixture Models
+- Markov Models
+- Deep Neural Networks
 
 (We also covered ensemble methods and boosting)
 

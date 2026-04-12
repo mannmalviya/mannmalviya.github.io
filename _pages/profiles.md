@@ -1,12 +1,12 @@
 ---
-layout: profiles  
-title: AboutMe  
-permalink: /people/  
-nav: true  
-nav_order: 4  
-_styles: >  
+layout: profiles
+title: AboutMe
+permalink: /people/
+nav: true
+nav_order: 4
+_styles: >
   .post-header {  
-    display: none;  
+    display: none;
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -25,5 +25,5 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>From the cover of the General Relativity Textbook</p> 
-      <p>by R. M. Wald</p>  
+      <p>by R. M. Wald</p>
 ---

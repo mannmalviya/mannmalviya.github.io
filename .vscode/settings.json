@@ -1,13 +1,4 @@
 {
-"cSpell.enabledFileTypes": [
-  "markdown",
-  "plaintext"
-],
-"cSpell.words": [
-  "customword",
-  "LLMs",
-  "Markdown",
-  "VSCode"
-]
-
+  "cSpell.enabledFileTypes": ["markdown", "plaintext"],
+  "cSpell.words": ["customword", "LLMs", "Markdown", "VSCode"]
 }

@@ -12,5 +12,5 @@ children:
     permalink: /Quotes/
   - title: divider
   - title: Old Announcements
-    permalink: /announcements/  
+    permalink: /announcements/
 ---

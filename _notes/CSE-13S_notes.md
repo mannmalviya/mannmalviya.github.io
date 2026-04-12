@@ -1,13 +1,11 @@
----  
-layout: page  
-title: Computer Systems and C Programming  
-description: Based on UCSC's CSE-13S   
+---
+layout: page
+title: Computer Systems and C Programming
+description: Based on UCSC's CSE-13S
 img: assets/img/coming_soon.png
-importance: 2  
-category: Systems & Programming  
+importance: 2
+category: Systems & Programming
 published: false
+---
 
----  
-  
 ![Under Construction]({{ 'assets/img/coming_soon.png' | relative_url }})
-

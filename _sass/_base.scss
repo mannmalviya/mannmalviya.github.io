@@ -493,26 +493,26 @@ footer.fixed-bottom {
   }
 }
 
-footer.sticky-bottom {  
-  border-top: 1px solid var(--global-divider-color);  
-  padding-top: 15px;  
-  padding-bottom: 15px;  
-  font-size: 0.9rem;  
-  background-color: var(--global-footer-bg-color);  // Apply to footer, not container  
-    
-  .container {  
-    text-align: center;  
-    color: var(--global-footer-text-color);  // Keep text color on container  
-  }  
-    
-  a {  
-    color: var(--global-footer-link-color);  
-      
-    &:hover {  
-      color: var(--global-theme-color);  
-      text-decoration: none;  
-    }  
-  }  
+footer.sticky-bottom {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 0.9rem;
+  background-color: var(--global-footer-bg-color); // Apply to footer, not container
+
+  .container {
+    text-align: center;
+    color: var(--global-footer-text-color); // Keep text color on container
+  }
+
+  a {
+    color: var(--global-footer-link-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
 }
 
 // CV
@@ -667,8 +667,8 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
-  .card-text {  
-    color: #666666; // grey for light theme  
+  .card-text {
+    color: #666666; // grey for light theme
   }
   a {
     text-decoration: none;
@@ -704,17 +704,17 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
-  .card-title {  
-    font-size: 1.25rem;  
-      
-    // Make titles with 30+ characters smaller  
-    &[title*="very long text"] {  
-      font-size: 1rem;  
-    }  
-  }  
+  .card-title {
+    font-size: 1.25rem;
+
+    // Make titles with 30+ characters smaller
+    &[title*="very long text"] {
+      font-size: 1rem;
+    }
+  }
 }
-[data-theme="dark"] .projects .card-text {  
-  color: #ffffff; // white for dark theme  
+[data-theme="dark"] .projects .card-text {
+  color: #ffffff; // white for dark theme
 }
 
 // Publications
@@ -1020,7 +1020,12 @@ html.transition *:after {
 
   // Make headings bolder in book reviews
   &.book-review article {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       font-weight: 700;
     }
   }
@@ -1512,27 +1517,25 @@ figure.cover {
   }
 }
 
-.social .contact-icons a {  
-  display: inline-block;  
-  position: relative;  
-  margin: 0 1.5rem; /* Add horizontal spacing between icons */  
-}  
-  
-.social .contact-icons a img.only-dark,  
-.social .contact-icons a img.only-light {  
-  position: absolute;  
-  top: 0;  
-  left: 0;  
+.social .contact-icons a {
+  display: inline-block;
+  position: relative;
+  margin: 0 1.5rem; /* Add horizontal spacing between icons */
 }
 
+.social .contact-icons a img.only-dark,
+.social .contact-icons a img.only-light {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+.social .contact-icons a img {
+  transition: all 0.3s ease-in-out;
+}
 
-.social .contact-icons a img {    
-  transition: all 0.3s ease-in-out;  
-}    
-    
-.social .contact-icons a:hover img {    
-  transform: scale(1.15) rotate(5deg);    
+.social .contact-icons a:hover img {
+  transform: scale(1.15) rotate(5deg);
 }
 
 /*
@@ -1560,85 +1563,85 @@ If you want a border around the icon on hover:
 
 */
 
+footer .footer-social {
+  margin-bottom: 0rem; /* Reduced margin to keep it closer */
 
+  .contact-icons {
+    font-size: 1.5rem; /* Smaller for footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Increased spacing between icons */
 
-footer .footer-social {  
-  margin-bottom: 0rem; /* Reduced margin to keep it closer */  
-    
-  .contact-icons {  
-    font-size: 1.5rem; /* Smaller for footer */  
-    display: flex;  
-    justify-content: center;  
-    align-items: center;  
-    gap: 1rem; /* Increased spacing between icons */  
-      
-    a {  
-      display: inline-block;  
-      position: relative;  
-      transition: all 0.3s ease-in-out;  
-        
-      img {  
-        width: 1.5rem;  
-        height: 1.5rem;  
-        margin-bottom: 0;  
-        transition: all 0.3s ease-in-out;  
-      }  
-        
-      svg {  
-        width: 1.5rem;  
-        height: 1.5rem;  
-        margin-bottom: 0;  
-        transition: all 0.3s ease-in-out;  
-          
-        image {  
-          width: 1.5rem;  
-          height: 1.5rem;  
-        }  
-      }  
-        
-      /* Hover animations */  
-      &:hover {  
-        transform: scale(1.15) rotate(5deg);    
-          
-        img, svg {  
-          transform: scale(1.15) rotate(5deg);    
-        }  
-      }  
-    }  
-  }  
-}  
-  
-/* Ensure footer container has proper spacing */  
-footer .container {  
-  display: flex;  
-  flex-direction: column;  
-  align-items: center;  
-  gap: 0.25rem; /* Minimal gap between social icons and copyright */  
+    a {
+      display: inline-block;
+      position: relative;
+      transition: all 0.3s ease-in-out;
+
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 0;
+        transition: all 0.3s ease-in-out;
+      }
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 0;
+        transition: all 0.3s ease-in-out;
+
+        image {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+
+      /* Hover animations */
+      &:hover {
+        transform: scale(1.15) rotate(5deg);
+
+        img,
+        svg {
+          transform: scale(1.15) rotate(5deg);
+        }
+      }
+    }
+  }
 }
 
-// Invert social icons on profiles page  
-.post article .social .contact-icons a {  
-  img.only-light {  
-    display: none;  
-  }  
-    
-  img.only-dark {  
-    display: inline-block;  
-  }  
-}  
-  
-[data-theme="dark"] .post article .social .contact-icons a {  
-  img.only-light {  
-    display: inline-block;  
-  }  
-    
-  img.only-dark {  
-    display: none;  
-  }  
+/* Ensure footer container has proper spacing */
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem; /* Minimal gap between social icons and copyright */
+}
+
+// Invert social icons on profiles page
+.post article .social .contact-icons a {
+  img.only-light {
+    display: none;
+  }
+
+  img.only-dark {
+    display: inline-block;
+  }
+}
+
+[data-theme="dark"] .post article .social .contact-icons a {
+  img.only-light {
+    display: inline-block;
+  }
+
+  img.only-dark {
+    display: none;
+  }
 }
 
 // This removed the extra gap bellow the footer due to the bodys flex box
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
