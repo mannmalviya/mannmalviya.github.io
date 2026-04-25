@@ -5,8 +5,9 @@ permalink: /people/
 nav: true
 nav_order: 4
 _styles: >
-  .post-header {  
+  .post-header {
     display: none;
+  }
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
